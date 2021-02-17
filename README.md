@@ -34,13 +34,13 @@ Django has inbuilt authentication and database systems.<p>
       ```
       pip install django
       ```
-* Step (7) -> Now we have everything installed. TO run the virtual enviroment on your local host, come out of the _venv_ folder and into the _stocks_ folder and  write the following command:
+* Step (7) -> Now we have everything installed. To run the virtual enviroment on your local host, come out of the _venv_ folder and into the _stocks_ folder and  write the following command:
   *   ```
       python manage.py runserver
       ```
 * Step (8) -> If the above doesn't work, find the manger.py python file in your folder and run from that directory.
 * Step (9) -> Go to the browser you use normally and type ***localhost:8000***. Yes it runs on that port.
-* Step (10) -> To exit / close the localhost / server, got to your termainal and press ***CTRL + C***.
+* Step (10) -> To exit / close the localhost / server, go to your termainal and press ***CTRL + C***.
 
 
 
