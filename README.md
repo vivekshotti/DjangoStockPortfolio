@@ -44,3 +44,14 @@ Django has inbuilt authentication and database systems.<p>
 
 
 <h2>Some snaps of the project:</h2><p>
+  <h3>Home Page</h3>
+ <img src="https://github.com/Vivek-Hotti/DjangoStockPortfolio/blob/main/images/1.JPG"><p>
+    <h3>DevTeam Page</h3>
+ <img src="https://github.com/Vivek-Hotti/DjangoStockPortfolio/blob/main/images/2.JPG"><p>
+    <h3>Add Stocks Page</h3>
+ <img src="https://github.com/Vivek-Hotti/DjangoStockPortfolio/blob/main/images/3.JPG">
+     <h3>Delete Stocks Page</h3>
+ <img src="https://github.com/Vivek-Hotti/DjangoStockPortfolio/blob/main/images/4.JPG">
+      <h3>Searching for Stock using Ticker Symbol</h3>
+ <img src="https://github.com/Vivek-Hotti/DjangoStockPortfolio/blob/main/images/5.JPG">
+
