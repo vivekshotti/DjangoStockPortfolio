@@ -40,3 +40,7 @@ Django has inbuilt authentication and database systems.<p>
       ```
 * Step (8) -> If the above doesn't work, find the manger.py python file in your folder and run from that directory.
 * Step (9) -> Go to the browser you use normally and type ***localhost:8000***. Yes it runs on that port.
+
+
+
+<h2>Some snaps of the project:</h2><p>
