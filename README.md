@@ -42,7 +42,7 @@ Django has inbuilt authentication and database systems.<p>
 * Step (9) -> Go to the browser you use normally and type ***localhost:8000***. Yes it runs on that port.
 * Step (10) -> To exit / close the localhost / server, go to your termainal and press ***CTRL + C***.
 
-If you encounter or face any issues while installation, please refer to it on [Youtube](https://www.youtube.com/watch?v=HdoPg2e_m9s) or you can also refer this another channel on [Youtube](https://www.youtube.com/watch?v=HHx3tTQWUx0&list=PLCC34OHNcOtqW9BJmgQPPzUpJ8hl49AGy). Irresepective of  uploading issues, you can refer Codemy.com (youtube channel) for other Django tutorials.
+If you encounter or face any issues while installation, please refer to it on [Youtube](https://www.youtube.com/watch?v=HdoPg2e_m9s) or you can also refer this another channel on [Youtube](https://www.youtube.com/watch?v=HHx3tTQWUx0&list=PLCC34OHNcOtqW9BJmgQPPzUpJ8hl49AGy). Irresepective of  installation issues, you can refer Codemy.com (youtube channel) for other Django tutorials.
 
 
 <h2>Some snaps of the project:</h2><p>
