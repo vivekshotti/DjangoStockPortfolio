@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% block content %}
+
+
+{% if ticker %}
+	{{ ticker }}
+{% endif %}
+
+{% if api %}
+	{% if api == "Error..." %}
+		There was a problem with your ticker symbol. Please try again.
+	{% else %}
+		<h1>{{ api.companyName }}</h1><br/>
+		Price: ${{ api.latestPrice  }}<br/>
+		Previous Close: ${{ api.previousClose }}<br/>
+		Market Cap: ${{ api.marketCap  }}<br/>
+		YTD Change: {{ api.ytdChange  }}<br/>
+		52Week High: {{ api.week52High  }}<br/>
+		52Week Low: {{ api.week52Low  }}<br/>
+		
+	{% endif %}
+{% endif %}
+<h1>Welcome to your stock portfolio!</h1><br/><br/>
+
+<h4> New here? Lets get familar with your console! </h4><br/>
+
+<h6>Your nav bar consists of a couple of things, lets get familiar with the navbar first.</h6>
+1) The <b>"DevTeam"</b> Section : Want to check out our team and developer profiles? Click that button then.<br/><br/>
+
+2) The <b>"Add Stock"</b> Section : This section helps in addition of a 'new' stock to your portfolio. All the data is fetched live from the market and the values are either form the live market or previous close, whichever is earlier.<br/><br/>
+
+3) The <b>"Delete Stock"</b> Section : This section lists all your active stocks in the portfolio, and gives you the choice to delete a stock from your portfolio. Although this can also be done through the active stocks section.<br/><br/>
+
+4) The <b>"Get Stock Quotes"</b> Section : You maybe able to see a search bar at the top right corner of the nav bar, with a Search button in green besides. This will help you in searching for a stock using the "ticker symbol". It will fetch details like the company name, stock price, previous close, market cap, year-to-date change, 52week high and 52 week low.<br/><br/>
+For beginners, a tiker symbol of a stock is a set of characters below 5 in count, that are used to represent that company's stock on the stock market.<br/>
+
+{% endblock %}
