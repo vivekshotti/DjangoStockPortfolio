@@ -2,6 +2,8 @@ from django.shortcuts import render, redirect
 from .models import Stock
 from .forms import StockForm
 from django.contrib import messages
+from django.shortcuts import render 
+
 
 # pk_e4c317db75c8461fb6c92a1ea3c0e496
 
@@ -63,3 +65,10 @@ def delete(request, stock_id):
 def delete_stock(request):
 	ticker = Stock.objects.all()
 	return render(request, 'delete_stock.html', {'ticker': ticker})
+
+def news(request):
+    import requests 
+    import json
+    news_api_request=requests.get("https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=7fbe44ccbd564351af262ff843fdb6d5")
+    api=json.loads(news_api_request.content)
+    return render(request,'news.html',{'api':api})
