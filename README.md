@@ -54,6 +54,14 @@ If you encounter or face any issues while installation, please refer to it on [Y
  <img src="https://github.com/Vivek-Hotti/DjangoStockPortfolio/blob/main/images/3.JPG">
      <h3>Delete Stocks Page</h3>
  <img src="https://github.com/Vivek-Hotti/DjangoStockPortfolio/blob/main/images/4.JPG">
-      <h3>Searching for Stock using Ticker Symbol</h3>
+      <h3>Stock News</h3>
  <img src="https://github.com/Vivek-Hotti/DjangoStockPortfolio/blob/main/images/5.JPG">
+      <h3>Searching for Stock using Ticker Symbol</h3>
+ <img src="https://github.com/Vivek-Hotti/DjangoStockPortfolio/blob/main/images/6.JPG">
+       <h3>Responsiveness of different pages</h3>
+ <img src="https://github.com/Vivek-Hotti/DjangoStockPortfolio/blob/main/images/7.JPG">
+ <img src="https://github.com/Vivek-Hotti/DjangoStockPortfolio/blob/main/images/8.JPG">
+ <img src="https://github.com/Vivek-Hotti/DjangoStockPortfolio/blob/main/images/9.JPG">
+ 
+ 
 
